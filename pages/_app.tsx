@@ -12,7 +12,7 @@ import 'prismjs/themes/prism-coy.css'
 
 // used for collection views selector (optional)
 // TODO: re-add if we enable collection view dropdowns
-// import 'rc-dropdown/assets/index.css'
+import 'rc-dropdown/assets/index.css'
 
 // used for rendering equations (optional)
 import 'katex/dist/katex.min.css'
