@@ -7,8 +7,8 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'UA News',
-  domain: 'adscore',
+  name: 'User Acquisition News',
+  domain: 'uanews',
   author: 'Alex',
 
   // open graph metadata (optional)
