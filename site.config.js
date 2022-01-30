@@ -8,18 +8,18 @@ module.exports = {
 
   // basic site info (required)
   name: 'UA News',
-  domain: 'adscore-uanews',
+  domain: 'adscore',
   author: 'Alex',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: 'RSS feeds for User Acquisition',
+  socialImageTitle: 'UA News',
+  socialImageSubtitle: 'Keep informed',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: null,
+  github: null,
+  linkedin: 'oleksandr-spivak-5325a5191',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
