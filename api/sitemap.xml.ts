@@ -17,7 +17,7 @@ export default async (
   // cache sitemap for up to one hour
   res.setHeader(
     'Cache-Control',
-    'public, s-maxage=3600, max-age=3600, stale-while-revalidate=3600'
+    'public, s-maxage=60, max-age=60, stale-while-revalidate=60'
   )
   res.setHeader('Content-Type', 'text/xml')
   res.write(createSitemap(siteMaps[0]))
