@@ -19,7 +19,7 @@ module.exports = {
   // social usernames (optional)
   twitter: null,
   github: null,
-  linkedin: null,
+  linkedin: 'oleksandr-spivak-5325a5191',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
