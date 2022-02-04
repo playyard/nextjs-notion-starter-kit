@@ -32,7 +32,7 @@ export async function getStaticPaths() {
   if (isDev) {
     return {
       paths: [],
-      fallback: blocking
+      fallback: 'blocking'
     }
   }
 
@@ -47,7 +47,7 @@ export async function getStaticPaths() {
       }))
     ),
     // paths: [],
-    fallback: blocking
+    fallback: 'blocking'
   }
 
   console.log(ret.paths)
